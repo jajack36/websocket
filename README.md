@@ -1,7 +1,7 @@
 # command
-php artisan websockets:serve. 
-php artisan serve. 
-npm run watch. 
+php artisan websockets:serve.  
+php artisan serve.  
+npm run watch.  
 
 # reference
 https://www.youtube.com/watch?v=mDnsC-sfG7I
