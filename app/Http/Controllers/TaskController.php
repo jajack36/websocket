@@ -125,7 +125,7 @@ class TaskController extends Controller
         if ($task->delete()) {
             return response()->json([
                 'success' => true
-            ]);
+            ], 204);
         } else {
             return response()->json([
                 'success' => false,
