@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use JWTAuth;
-use App\Task;
+use App\Models\Task;
 use Illuminate\Http\Request;
 
 class TaskController extends Controller
@@ -69,7 +69,7 @@ class TaskController extends Controller
             return response()->json([
                 'success' => true,
                 'task' => $task
-            ]);
+            ], 201);
         else
             return response()->json([
                 'success' => false,
