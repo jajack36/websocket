@@ -1,4 +1,6 @@
 # command
+composer install
+npm install
 php artisan websockets:serve.  
 php artisan serve.  
 npm run watch.  
